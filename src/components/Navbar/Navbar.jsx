@@ -17,8 +17,27 @@ const Navbar = () => {
                     <li>
                         <Link to={"/about"}>About</Link>
                     </li>
-                    <li>
-                        <Link to={"/products"}>Products</Link>
+                    <li id='services'>
+                        <Link to={"/services"}>Services</Link>
+                        <ul className='services-menu'>
+                            <li id='services1'>
+                                <Link to={"/service1"}>Service 1</Link>
+                                <ul className='services-sub-menu'>
+                                    <li>
+                                        <Link to={"/service1"}>Service 1.1</Link>
+                                    </li>
+                                    <li>
+                                        <Link to={"/service2"}>Service 1.2</Link>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <Link to={"/service2"}>Service 2</Link>
+                            </li>
+                            <li>
+                                <Link to={"/service3"}>Service 3</Link>
+                            </li>
+                        </ul>
                     </li>
                     <li>
                         <Link to={"/contact"}>Contact</Link>

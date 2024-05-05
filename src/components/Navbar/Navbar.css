@@ -20,10 +20,6 @@
 .menu {
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
-}
-
-.menu li {
     font-size: 20px;
     font-weight: 500;
 }
@@ -37,4 +33,48 @@
 .menu li a:hover {
     border: 1px solid blue;
     color: blue;
+}
+
+.services-menu {
+    display: none;
+    list-style: none;
+    position: absolute;
+    min-width: 130px;
+    z-index: 1;
+    padding: 0%;
+}
+
+.services-menu li {
+    margin: 5px 0px;
+}
+
+.services-menu li a:hover {
+    padding: auto 65px;
+}
+
+#services:hover {
+    .services-menu {
+        display: block;
+    }
+}
+
+.services-sub-menu {
+    display: none;
+    list-style: none;
+    position: absolute;
+    z-index: 2;
+    min-width: 130px;
+    top: 0px;
+    right: 125px;
+    padding: 0%;
+}
+
+.services-sub-menu li {
+    margin: 5px 0px;
+}
+
+#services1:hover {
+    .services-sub-menu {
+        display: block;
+    }
 }
