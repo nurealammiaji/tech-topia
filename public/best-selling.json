@@ -1,0 +1,26 @@
+[
+    {
+        "product_id": "123456",
+        "product_name": "Smartphone X",
+        "image_url": "https://example.com/images/latest_products_blog_post_3.jpg",
+        "sales_count": 5000,
+        "rating": 4.5,
+        "price": 500
+    },
+    {
+        "product_id": "789012",
+        "product_name": "Laptop Y",
+        "image_url": "https://example.com/images/latest_products_blog_post_3.jpg",
+        "sales_count": 3500,
+        "rating": 4.8,
+        "price": 1000
+    },
+    {
+        "product_id": "345678",
+        "product_name": "Headphones Z",
+        "image_url": "https://example.com/images/latest_products_blog_post_3.jpg",
+        "sales_count": 2000,
+        "rating": 4.3,
+        "price": 50
+    }
+]

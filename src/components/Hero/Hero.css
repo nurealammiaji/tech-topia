@@ -1,0 +1,14 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-info h1 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.hero-info p {
+    font-size: 20px;
+}

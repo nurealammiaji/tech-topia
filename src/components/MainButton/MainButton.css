@@ -1,0 +1,11 @@
+.main-btn {
+    font-size: 18px;
+    border: 2px solid black;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.main-btn:hover {
+    color: blue;
+    border: 2px solid blue;
+ }

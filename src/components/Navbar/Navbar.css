@@ -1,5 +1,29 @@
 .navbar {
     display: flex;
+    flex-direction: column;
+    background-color: lightcyan;
+    padding: 0px 10px;
+    margin-bottom: 50px;
+}
+
+.log-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.log-links {
+    display: flex;
+    align-items: center;
+}
+
+.log-links a {
+    text-decoration: none;
+    margin: 0px 5px;
+}
+
+.navigation {
+    display: flex;
     align-items: center;
     justify-content: space-between;
 }
@@ -7,6 +31,7 @@
 .brand {
     font-weight: 700;
     font-size: 30px;
+    margin-right: 25px;
 }
 
 .brand a {
@@ -15,6 +40,25 @@
 
 .brand a:hover {
     color: blue;
+}
+
+.nav-search input {
+    height: 40px;
+    width: 250px;
+    border-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: none;
+    padding: 0px 10px;
+}
+
+.nav-search button {
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border: none;
 }
 
 .menu {
@@ -27,11 +71,9 @@
 .menu li a {
     text-decoration: none;
     padding: 5px 10px;
-    border: 1px solid transparent;
 }
 
 .menu li a:hover {
-    border: 1px solid blue;
     color: blue;
 }
 
@@ -42,6 +84,8 @@
     min-width: 130px;
     z-index: 1;
     padding: 0%;
+    font-size: 18px;
+    background-color: gold;
 }
 
 .services-menu li {
@@ -65,8 +109,9 @@
     z-index: 2;
     min-width: 130px;
     top: 0px;
-    right: 125px;
+    left: 125px;
     padding: 0%;
+    background-color: gold;
 }
 
 .services-sub-menu li {

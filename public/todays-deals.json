@@ -1,0 +1,35 @@
+[
+    {
+        "product_id": "123456",
+        "product_name": "Smartphone X",
+        "image_url": "https://example.com/images/latest_products_blog_post_3.jpg",
+        "discount_percentage": 20,
+        "original_price": 500,
+        "deal_price": 400,
+        "start_date": "2024-05-05",
+        "end_date": "2024-05-06",
+        "availability": true
+    },
+    {
+        "product_id": "789012",
+        "product_name": "Laptop Y",
+        "image_url": "https://example.com/images/latest_products_blog_post_3.jpg",
+        "discount_percentage": 15,
+        "original_price": 1000,
+        "deal_price": 850,
+        "start_date": "2024-05-05",
+        "end_date": "2024-05-06",
+        "availability": true
+    },
+    {
+        "product_id": "345678",
+        "product_name": "Headphones Z",
+        "image_url": "https://example.com/images/latest_products_blog_post_3.jpg",
+        "discount_percentage": 30,
+        "original_price": 50,
+        "deal_price": 35,
+        "start_date": "2024-05-05",
+        "end_date": "2024-05-06",
+        "availability": true
+    }
+]

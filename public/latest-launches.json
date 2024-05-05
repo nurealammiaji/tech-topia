@@ -1,0 +1,26 @@
+[
+    {
+        "product_id": "123456",
+        "product_name": "Smartwatch A",
+        "image_url": "https://example.com/images/latest_products_blog_post_3.jpg",
+        "category": "Electronics",
+        "launch_date": "2024-05-01",
+        "price": 200
+    },
+    {
+        "product_id": "789012",
+        "product_name": "Running Shoes B",
+        "image_url": "https://example.com/images/latest_products_blog_post_3.jpg",
+        "category": "Fashion",
+        "launch_date": "2024-04-25",
+        "price": 80
+    },
+    {
+        "product_id": "345678",
+        "product_name": "Coffee Machine C",
+        "image_url": "https://example.com/images/latest_products_blog_post_3.jpg",
+        "category": "Home & Kitchen",
+        "launch_date": "2024-04-30",
+        "price": 150
+    }
+]

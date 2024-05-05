@@ -21,15 +21,3 @@
 .error-data {
     font-size: 20px;
 }
-
-.back-btn {
-    border: 1px solid transparent;
-    text-decoration: none;
-    padding: 10px 20px;
-}
-
-.back-btn:hover {
-    color: blue;
-    border: 1px solid blue;
- }
-

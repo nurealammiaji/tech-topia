@@ -1,0 +1,29 @@
+[
+    {
+        "offer_id": "123456",
+        "offer_name": "Summer Sale",
+        "image_url": "https://example.com/images/latest_products_blog_post_3.jpg",
+        "discount_percentage": 30,
+        "start_date": "2024-06-01",
+        "end_date": "2024-06-30",
+        "description": "Enjoy massive discounts on a wide range of products during our summer sale!"
+    },
+    {
+        "offer_id": "789012",
+        "offer_name": "Flash Deal",
+        "image_url": "https://example.com/images/latest_products_blog_post_3.jpg",
+        "discount_percentage": 20,
+        "start_date": "2024-05-05",
+        "end_date": "2024-05-06",
+        "description": "Limited time offer! Get exclusive discounts on selected items for 24 hours only."
+    },
+    {
+        "offer_id": "345678",
+        "offer_name": "Buy One Get One Free",
+        "image_url": "https://example.com/images/latest_products_blog_post_3.jpg",
+        "discount_percentage": 50,
+        "start_date": "2024-05-10",
+        "end_date": "2024-05-15",
+        "description": "Buy one product and get another product of equal or lesser value for free!"
+    }
+]
