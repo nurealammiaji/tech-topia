@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import SearchBar from '../SearchBar/SearchBar';
 
 const Navbar = () => {
     return (
@@ -62,12 +63,7 @@ const Navbar = () => {
                         </li>
                     </ul>
                 </div>
-                <div>
-                    <div className='nav-search'>
-                        <input type='search' />
-                        <button>Search</button>
-                    </div>
-                </div>
+                <SearchBar />
             </nav>
         </div>
     );

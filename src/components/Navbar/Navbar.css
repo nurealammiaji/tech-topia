@@ -42,25 +42,6 @@
     color: blue;
 }
 
-.nav-search input {
-    height: 40px;
-    width: 250px;
-    border-radius: 20px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border: none;
-    padding: 0px 10px;
-}
-
-.nav-search button {
-    height: 40px;
-    width: 80px;
-    border-radius: 20px;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border: none;
-}
-
 .menu {
     list-style: none;
     display: flex;
