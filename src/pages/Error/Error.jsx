@@ -1,6 +1,6 @@
 import { Link, useRouteError } from 'react-router-dom';
 import './Error.css';
-import MainButton from '../../components/MainButton/MainButton';
+import PrimaryButton from '../../components/PrimaryButton/PrimaryButton';
 
 const Error = () => {
 
@@ -18,7 +18,7 @@ const Error = () => {
             <h4 className='error-data'>{error.data}</h4>
             <br /><br />
             <Link to={"/"}>
-                <MainButton name={"Back to Home"} />
+                <PrimaryButton name={"Back to Home"} />
             </Link>
         </div>
     );

@@ -1,8 +1,8 @@
 [
     {
         "product_id": "123456",
-        "product_name": "Smartphone X",
-        "image_url": "https://example.com/images/latest_products_blog_post_3.jpg",
+        "product_name": "Benco Smartphones",
+        "image_url": "https://www.bencomobile.com/UserFiles/denco/image/20221126/20221126140522_6380.jpg",
         "discount_percentage": 20,
         "original_price": 500,
         "deal_price": 400,
@@ -12,8 +12,8 @@
     },
     {
         "product_id": "789012",
-        "product_name": "Laptop Y",
-        "image_url": "https://example.com/images/latest_products_blog_post_3.jpg",
+        "product_name": "HP Laptops",
+        "image_url": "https://5.imimg.com/data5/DS/TQ/BE/SELLER-11188381/hp-laptop-500x500.jpg",
         "discount_percentage": 15,
         "original_price": 1000,
         "deal_price": 850,
@@ -23,8 +23,8 @@
     },
     {
         "product_id": "345678",
-        "product_name": "Headphones Z",
-        "image_url": "https://example.com/images/latest_products_blog_post_3.jpg",
+        "product_name": "Razor Headphones",
+        "image_url": "https://dvf83rt16ac4w.cloudfront.net/upload/product/20230913_1694605213_363602.jpeg",
         "discount_percentage": 30,
         "original_price": 50,
         "deal_price": 35,

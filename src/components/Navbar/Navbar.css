@@ -17,9 +17,8 @@
     align-items: center;
 }
 
-.log-links a {
-    text-decoration: none;
-    margin: 0px 5px;
+.log-links p {
+    margin: 0px 15px;
 }
 
 .navigation {
@@ -30,12 +29,13 @@
 
 .brand {
     font-weight: 700;
-    font-size: 30px;
+    font-size: 35px;
     margin-right: 25px;
 }
 
 .brand a {
     text-decoration: none;
+    color: blueviolet;
 }
 
 .brand a:hover {
@@ -52,6 +52,7 @@
 .menu li a {
     text-decoration: none;
     padding: 5px 10px;
+    color: blueviolet;
 }
 
 .menu li a:hover {

@@ -1,6 +1,6 @@
-import './MainButton.css';
+import './PrimaryButton.css';
 
-const Button = ({ name }) => {
+const PrimaryButton = ({ name }) => {
     return (
         <button className='main-btn'>
             {name}
@@ -8,4 +8,4 @@ const Button = ({ name }) => {
     );
 };
 
-export default Button;
+export default PrimaryButton;

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './Hero.css';
-import MainButton from '../MainButton/MainButton';
+import PrimaryButton from '../PrimaryButton/PrimaryButton';
 
 const Hero = () => {
     return (
@@ -14,7 +14,7 @@ const Hero = () => {
                 </p>
                 <br /><br />
                 <Link to={"/about"}>
-                    <MainButton name={"Learn More"} />
+                    <PrimaryButton name={"Learn More"} />
                 </Link>
             </div>
             <div className='hero-img'>

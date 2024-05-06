@@ -6,16 +6,16 @@ const Navbar = () => {
     return (
         <div className='navbar'>
             <div className='log-menu'>
-                <div style={{flexGrow: 3}}>
+                <div style={{ flexGrow: 3 }}>
                     <div>
                         <p>Location: Dhaka, Bangladesh</p>
                     </div>
                 </div>
-                <div style={{flexGrow: 3}}>
+                <div style={{ flexGrow: 3 }}>
                     <div className='log-links'>
-                        <Link to={"/login"}>Login</Link>
+                        <button>Login</button>
                         <p> || </p>
-                        <Link to={"/register"}>Register</Link>
+                        <button>Register</button>
                     </div>
                 </div>
                 <div>
