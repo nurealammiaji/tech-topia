@@ -1,0 +1,46 @@
+.selling-card {
+    text-align: center;
+    background-color: rgb(246, 243, 243);
+    padding: 20px;
+    width: auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.selling-card:hover {
+    box-shadow: 1px 1px 10px gray;
+}
+
+.selling-card-image {
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.selling-card-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.selling-card-detail h5 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.selling-card-detail p {
+    color: blue;
+    font-weight: 500;
+}
+
+.selling-card-detail p:nth-child(3) {
+    color: gray;
+}
+
+.selling-card-action {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

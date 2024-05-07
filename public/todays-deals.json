@@ -6,6 +6,7 @@
         "discount_percentage": 20,
         "original_price": 500,
         "deal_price": 400,
+        "category_name": "Smartphones",
         "start_date": "2024-05-05",
         "end_date": "2024-05-06",
         "availability": true
@@ -17,6 +18,7 @@
         "discount_percentage": 15,
         "original_price": 1000,
         "deal_price": 850,
+        "category_name": "Laptops",
         "start_date": "2024-05-05",
         "end_date": "2024-05-06",
         "availability": true
@@ -28,6 +30,7 @@
         "discount_percentage": 30,
         "original_price": 50,
         "deal_price": 35,
+        "category_name": "Headphones",
         "start_date": "2024-05-05",
         "end_date": "2024-05-06",
         "availability": true
