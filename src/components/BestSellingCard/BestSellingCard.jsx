@@ -6,7 +6,7 @@ const BestSellingCard = ({ item }) => {
     const { product_id, product_name, image_url, price, rating } = item;
 
     return (
-        <div className='selling-card'>
+        <div className='selling-card p'>
             <div className='selling-card-image'>
                 <img src={image_url} alt="" />
             </div>

@@ -1,8 +1,17 @@
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import SearchBar from '../SearchBar/SearchBar';
+import { useContext } from 'react';
+import { AuthContext } from '../../providers/AuthProvider';
 
 const Navbar = () => {
+
+    const { user, logout } = useContext(AuthContext);
+
+    const logoutHandler = () => {
+        logout();
+    }
+
     return (
         <div className='navbar'>
             <div className='log-menu'>
@@ -13,9 +22,19 @@ const Navbar = () => {
                 </div>
                 <div style={{ flexGrow: 3 }}>
                     <div className='log-links'>
-                        <button>Login</button>
-                        <p> || </p>
-                        <button>Register</button>
+                        {
+                            (user) ?
+                                <>
+                                    <h5>{user?.name}</h5>
+                                    <p> || </p>
+                                    <button onClick={logoutHandler}>Logout</button>
+                                </> :
+                                <>
+                                    <Link to={"/login"}><button>Login</button></Link>
+                                    <p> || </p>
+                                    <button>Register</button>
+                                </>
+                        }
                     </div>
                 </div>
                 <div>
@@ -23,12 +42,12 @@ const Navbar = () => {
                 </div>
             </div>
             <nav className='navigation'>
-                <div style={{ flexGrow: 3 }}>
+                <div >
                     <h3 className='brand'>
                         <Link to={"/"}>TechTopia</Link>
                     </h3>
                 </div>
-                <div style={{ flexGrow: 3 }}>
+                <div>
                     <ul className='menu'>
                         <li>
                             <Link to={"/"}>Home</Link>
@@ -61,6 +80,19 @@ const Navbar = () => {
                         <li>
                             <Link to={"/contact"}>Contact</Link>
                         </li>
+                        {
+                            (user?.role === "admin") &&
+                            <li>
+                                <Link to={"/dashboard/admin"}>Dashboard</Link>
+                            </li>
+                        }
+                        {
+                            (user?.role === "user") &&
+                            <li>
+                                <Link to={"/dashboard/user"}>Dashboard</Link>
+                            </li>
+                        }
+
                     </ul>
                 </div>
                 <SearchBar />

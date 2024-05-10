@@ -45,37 +45,47 @@
 .menu {
     list-style: none;
     display: flex;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
+    padding: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
 .menu li a {
+    border: 2px solid transparent;
     text-decoration: none;
     padding: 5px 10px;
-    color: blueviolet;
+    color: black;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
 .menu li a:hover {
     color: blue;
+    border: 2px solid blue;
 }
 
 .services-menu {
     display: none;
     list-style: none;
     position: absolute;
-    min-width: 130px;
     z-index: 1;
+    min-width: 120px;
     padding: 0%;
-    font-size: 18px;
-    background-color: gold;
+    margin: 5px 0px;
+    font-size: 16px;
+    background-color: orange;
 }
 
 .services-menu li {
-    margin: 5px 0px;
-}
-
-.services-menu li a:hover {
-    padding: auto 65px;
+    margin: 10px auto;
 }
 
 #services:hover {
@@ -88,17 +98,18 @@
     display: none;
     list-style: none;
     position: absolute;
-    z-index: 2;
+    z-index: 1;
     min-width: 130px;
     top: 0px;
-    left: 125px;
+    left: 120px;
     padding: 0%;
-    background-color: gold;
+    background-color: orange;
 }
 
 .services-sub-menu li {
-    margin: 5px 0px;
+    margin: 10px auto;
 }
+
 
 #services1:hover {
     .services-sub-menu {

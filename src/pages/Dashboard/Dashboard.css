@@ -1,0 +1,42 @@
+.dash-header {
+    background-color: rgb(186, 136, 232);
+    min-height: 20vh;
+    max-height: auto;
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.dash-body {
+    min-height: 100vh;
+    max-height: auto;
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.dash-sidebar {
+    background-color: lightskyblue;
+}
+
+.dash-area {
+    min-width: auto;
+}
+
+.dash-brand {
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dash-brand a {
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.dash-title {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}

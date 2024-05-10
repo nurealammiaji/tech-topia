@@ -1,24 +1,24 @@
 [
     {
         "product_id": "123456",
-        "product_name": "Smartwatch A",
-        "image_url": "https://example.com/images/latest_products_blog_post_3.jpg",
+        "product_name": "Smartwatch",
+        "image_url": "https://gadgetnmusic.com/wp-content/uploads/2023/10/HK9-Ultra-2-AMOLED-Smartwatch-with-ChatGPT.jpg",
         "category": "Electronics",
         "launch_date": "2024-05-01",
         "price": 200
     },
     {
         "product_id": "789012",
-        "product_name": "Running Shoes B",
-        "image_url": "https://example.com/images/latest_products_blog_post_3.jpg",
+        "product_name": "Running Shoes",
+        "image_url": "https://www.winzer-schuhe.de/cdn/shop/products/on-running-cloudmonster-undyed-whitecreek-woman-230853.jpg?v=1679974189",
         "category": "Fashion",
         "launch_date": "2024-04-25",
         "price": 80
     },
     {
         "product_id": "345678",
-        "product_name": "Coffee Machine C",
-        "image_url": "https://example.com/images/latest_products_blog_post_3.jpg",
+        "product_name": "Coffee Machine",
+        "image_url": "https://m.media-amazon.com/images/I/41bspS94kcL.jpg",
         "category": "Home & Kitchen",
         "launch_date": "2024-04-30",
         "price": 150

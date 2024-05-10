@@ -1,6 +1,6 @@
 .search-bar input {
     height: 40px;
-    width: 250px;
+    width: 200px;
     border-radius: 20px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
@@ -9,8 +9,6 @@
 }
 
 .search-bar button {
-    /* height: 40px;
-    width: 80px; */
     padding: 12px 25px;
     border-radius: 20px;
     border-top-left-radius: 0px;
