@@ -18,7 +18,12 @@
 }
 
 .footer-brand a {
+    color: blueviolet;
     text-decoration: none;
+}
+
+.footer-brand a:hover {
+    color: blue;
 }
 
 .footer-brand p {
@@ -37,7 +42,7 @@
 }
 
 .newsletter p {
-    color: blue;
+    color: blueviolet;
     font-size: 20px;
     font-weight: 600;
 }
@@ -45,12 +50,12 @@
 .follow-us div p {
     text-align: right;
     margin-right: 5px;
-    color: blue;
+    color: blueviolet;
     font-size: 20px;
     font-weight: 600;
 }
 
-.follow-btn button {
-    background-color: transparent;
-    border: none;
+.follow-btn a {
+    text-decoration: none;
+    margin: 5px;
 }

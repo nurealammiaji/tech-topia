@@ -25,9 +25,9 @@ const Footer = () => {
                             <p>Follow Us</p>
                         </div>
                         <div className='follow-btn'>
-                            <button><i className="pi pi-facebook" style={{ color: '#708090', fontSize: '2rem' }}></i></button>
-                            <button><i className="pi pi-linkedin" style={{ color: '#708090', fontSize: '2rem' }}></i></button>
-                            <button><i className="pi pi-twitter" style={{ color: '#708090', fontSize: '2rem' }}></i></button>
+                            <a href='#'><i className="pi pi-facebook" style={{ color: 'blue', fontSize: '2rem' }}></i></a>
+                            <a href='#'><i className="pi pi-linkedin" style={{ color: 'royalblue', fontSize: '2rem' }}></i></a>
+                            <a href='#'><i className="pi pi-twitter" style={{ color: 'black', fontSize: '2rem' }}></i></a>
                         </div>
                     </div>
                 </nav>
