@@ -3,7 +3,7 @@ import './AdminDashboard.css';
 const AdminDashboard = () => {
     return (
         <div>
-            <h4>Admin</h4>
+            <h4>Admin Home</h4>
         </div>
     );
 };

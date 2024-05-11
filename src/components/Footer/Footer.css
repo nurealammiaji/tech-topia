@@ -1,0 +1,56 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: lightcyan;
+}
+
+.footer-area {
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-brand {
+    font-weight: 700;
+    font-size: 35px;
+    padding: 0%;
+}
+
+.footer-brand a {
+    text-decoration: none;
+}
+
+.footer-brand p {
+    font-style: italic;
+}
+
+.copyright {
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter {
+    text-align: center;
+}
+
+.newsletter p {
+    color: blue;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.follow-us div p {
+    text-align: right;
+    margin-right: 5px;
+    color: blue;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.follow-btn button {
+    background-color: transparent;
+    border: none;
+}

@@ -1,4 +1,5 @@
 import { createContext, useEffect, useState } from "react";
+import Swal from "sweetalert2";
 
 export const AuthContext = createContext()
 
@@ -27,6 +28,13 @@ const AuthProvider = ({ children }) => {
     const logout = () => {
         localStorage.removeItem('techtopia-user');
         setUser(null);
+        Swal.fire({
+            position: "center",
+            icon: "success",
+            title: "Logged out successfully",
+            showConfirmButton: false,
+            timer: 1500
+        });
     }
 
     const authInfo = {

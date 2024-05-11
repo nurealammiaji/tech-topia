@@ -3,7 +3,6 @@
     flex-direction: column;
     background-color: lightcyan;
     padding: 0px 10px;
-    margin-bottom: 50px;
 }
 
 .log-menu {
@@ -15,6 +14,24 @@
 .log-links {
     display: flex;
     align-items: center;
+}
+
+.log-links button {
+    font-weight: 600;
+    color: blue;
+    border: 2px solid blue;
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.log-links button:hover {
+    background-color: blue;
+    color: white;
 }
 
 .log-links p {
@@ -29,17 +46,16 @@
 
 .brand {
     font-weight: 700;
-    font-size: 35px;
-    margin-right: 25px;
+    font-size: 40px;
 }
 
 .brand a {
     text-decoration: none;
-    color: blueviolet;
+    color: blue
 }
 
 .brand a:hover {
-    color: blue;
+    color: blueviolet;
 }
 
 .menu {
@@ -47,12 +63,13 @@
     display: flex;
     font-size: 18px;
     font-weight: 500;
-    padding: 10px;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    background-color: orange;
+    padding: 15px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
 }
 
 .menu li a {
@@ -68,11 +85,13 @@
 }
 
 .menu li a:hover {
-    color: blue;
+    background-color: blue;
+    color: white;
     border: 2px solid blue;
 }
 
 .services-menu {
+    text-align: center;
     display: none;
     list-style: none;
     position: absolute;
@@ -86,6 +105,11 @@
 
 .services-menu li {
     margin: 10px auto;
+}
+
+.services-menu li a:hover {
+    color: white;
+    background-color: blue;
 }
 
 #services:hover {

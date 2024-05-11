@@ -1,4 +1,4 @@
-.search-bar input {
+.news-letter input {
     height: 40px;
     width: 200px;
     border: none;
@@ -12,7 +12,7 @@
     border-bottom-right-radius: 0px;
 }
 
-.search-bar button {
+.news-letter button {
     padding: 12px 25px;
     border: none;
     border-radius: 20px;
